@@ -1,0 +1,17 @@
+#include "split_clef.dtsi" // The shared dtsi file is included in the overlay
+
+kscan0: kscan0 {
+    input-gpios = 
+        <&gpio1 13 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY0  -> P0.06 */
+        <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY1  -> P0.08 */
+        <&gpio0 2  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY2  -> P0.17 */
+        <&gpio0 29 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY3  -> P0.22 */
+        <&gpio0 31 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY4  -> P0.24 */
+        <&gpio1 4  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY5  -> P1.00 */
+        <&gpio1 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY6  -> P0.11 */
+        <&gpio0 9  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY7  -> P1.04 */
+        <&gpio0 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY8  -> P1.06 */
+        <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY9  -> P0.31 */
+        <&gpio0 8  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>,   /* KEY10 -> P0.29 */
+        <&gpio0 6  (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;   /* KEY11 -> P0.02 */
+};

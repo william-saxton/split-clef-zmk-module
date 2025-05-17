@@ -1,0 +1,36 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+
+         keys  //                     w   h    x    y     rot    rx    ry
+            = <&key_physical_attrs 100 100  211  135       0     0     0>
+            , <&key_physical_attrs 100 100    0   65       0     0     0>
+            , <&key_physical_attrs 100 100  422  141       0     0     0>
+            , <&key_physical_attrs 100 100 1367  171       0     0     0>
+            , <&key_physical_attrs 100 100  489  376       0     0     0>
+            , <&key_physical_attrs 100 100 1051  106       0     0     0>
+            , <&key_physical_attrs 100 100 1156   29       0     0     0>
+            , <&key_physical_attrs 100 100  878  376       0     0     0>
+            , <&key_physical_attrs 100 100  594  376       0     0     0>
+            , <&key_physical_attrs 100 100 1051    0       0     0     0>
+            , <&key_physical_attrs 100 100 1262   65       0     0     0>
+            , <&key_physical_attrs 100 100 1156  135       0     0     0>
+            , <&key_physical_attrs 100 100  945  141       0     0     0>
+            , <&key_physical_attrs 100 100  211   29       0     0     0>
+            , <&key_physical_attrs 100 100 1262  171       0     0     0>
+            , <&key_physical_attrs 100 100    0  171       0     0     0>
+            , <&key_physical_attrs 100 100  106   65       0     0     0>
+            , <&key_physical_attrs 100 100  106  171       0     0     0>
+            , <&key_physical_attrs 100 100  422   35       0     0     0>
+            , <&key_physical_attrs 100 100  773  376       0     0     0>
+            , <&key_physical_attrs 100 100  945   35       0     0     0>
+            , <&key_physical_attrs 100 100  317  106       0     0     0>
+            , <&key_physical_attrs 100 100  317    0       0     0     0>
+            , <&key_physical_attrs 100 100 1367   65       0     0     0>
+            ;
+    };
+    };
+};

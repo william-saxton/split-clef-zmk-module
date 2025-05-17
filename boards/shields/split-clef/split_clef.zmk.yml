@@ -1,0 +1,13 @@
+file_format: "1"
+id: split_clef
+name: split_clef
+type: shield
+url: https://github.com/william-saxton/split_clef
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - split_clef_left
+  - split_clef_right
